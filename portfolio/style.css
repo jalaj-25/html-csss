@@ -120,10 +120,53 @@ button {
 .about {
     text-align: center;
     margin-left: 50px;
-    height: 82vh;
+    height: 150vh;
     width: 100vh;
     background-color: white;
     border-radius: 10px;
+}
+
+.text {
+    margin-left: 60px;
+    width: 83vh;
+}
+
+.explain {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.skills {
+    background-color: #fff7f7;
+    height: 60vh;
+    margin: 20px 20px 15vh 20px; /*top right bottom left*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill { 
+    background-color: rgb(231, 91, 26); 
+    padding: 1%;
+    height: 30vh;
+} 
+
+.html, .pic, .ill, .mobile{ 
+    width: 80%; 
+    height: 2%;
+} 
+
+.know{
+    width: 55%;
+    /* margin: 0 0 0 15vh; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card{
+    margin: 15vh 2vh 0 0; /*top right bottom left*/
+    justify-content: start;
+    height: 4vh;
+    background-color: grey;
 }
 
 .what_i_do {
@@ -185,4 +228,9 @@ button {
     border-radius: 15px;
     color: black;
     text-decoration: none;
+}
+
+.re {
+    text-decoration: none;
+    color: black;
 }
