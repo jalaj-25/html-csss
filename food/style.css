@@ -28,9 +28,10 @@ a{
   -webkit-backdrop-filter: blur(8px);
     color: white;
     background-color: transparent;
-    height: 50px;
+    /* height: 50px; */
     align-items: center;
     display: flex;
+    height: 8vh;
     z-index: 0;
     justify-content: space-evenly;
 }
@@ -83,6 +84,7 @@ a{
 }
 
 .img {
+  max-width: 100%;
     height: 800px;
     background-position: fixed;
     background-attachment: fixed;
@@ -104,9 +106,10 @@ a{
   margin: 25px 25px 25px 25px;
 } 
 
-.topselling{
+/* .topselling{
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout 
   display: grid;
-  grid-template-columns: auto auto auto;
+  /* grid-template-columns: auto auto auto; 
   height: 800px;
   border: 5px solid rgba(255, 255, 255, 0.65);
   border-radius: 10px; 
@@ -114,7 +117,35 @@ a{
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
+  margin: 45px 45px 0 45px; /*top right bottom left
+} */
+
+.topselling {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+  grid-gap: 20px; /* Spacing between grid items */
+  text-align: center;
+  align-items: center;
+  height: 800px; /* Adjust height as needed */
+  border: 5px solid rgba(255, 255, 255, 0.65);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.34);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
   margin: 45px 45px 0 45px; /*top right bottom left*/
+}
+
+.topselling img {
+  width: 100%; /* Ensure images fill their grid items */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Apply border radius to images */
+}
+
+@media (max-width: 960px) {
+  .topselling {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust for smaller screens */
+  }
 }
 
 .panner {
@@ -348,3 +379,38 @@ footer {
     /* background-color: #FF9C03; Change background color to red */
     color: #323232; /* Setting text color */  
   }
+
+  @media (max-width: 768px) {
+    /* Styles for screens up to 768px wide (e.g., tablets) */
+    .nav-bar {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .topselling {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Styles for screens up to 480px wide (e.g., smartphones) */
+    .nav-bar {
+      font-size: 14px;
+    }
+  
+    .search-input {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  
+    .menu {
+      width: 90vw;
+    }
+  
+    .topselling {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      height: auto;
+      margin: 20px;
+    }
+  }
+  
