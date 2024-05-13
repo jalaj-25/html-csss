@@ -1,0 +1,245 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("62624.jpg");
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    margin-left: 10%;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.main {
+    height: 82vh;
+    margin-top: -20px;
+    margin-left: 45px;
+}
+/*top right bottom left*/
+
+.content {
+    margin-left: 100px;
+    height: 64vh;
+    /* width: 75%; */
+    display: flex;
+    color: black;
+}
+
+h1{
+    height: 50px;
+    padding-top: 20px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;   
+    /* margin-left: 20px; */
+    font-size: 140%;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.fb, .li, .ig, .x {
+    padding: 5px;
+    /* margin-right: 20px; */
+}
+
+.fb:hover, .li:hover, .ig:hover, .x:hover {
+    transform: scale(1.3);
+}
+
+.li a {
+    text-decoration: none;
+    color: black;
+}
+
+.con {
+    width: 75%;
+    margin-left: 50px;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    padding: 25px 0;
+}
+
+.con:hover{
+    transition-duration: 3s;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+.log {
+    margin-left: 34px;
+    width: 80%;
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(194, 184, 184);
+    padding-right: 0px 20px 0px 20px ;
+    border-radius: 15px;
+}
+
+button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+.connect {
+    height: 750px;
+    width: 30vh;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about {
+    text-align: center;
+    margin-left: 50px;
+    height: 170vh;
+    width: 100vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.text {
+    margin-left: 60px;
+    width: 83vh;
+    font-size: 2.5vh;
+}
+
+.explain {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.skills {
+    background-color: #fff7f7;
+    height: 40vh;
+    margin: 20px 20px 15vh 20px; /*top right bottom left*/
+    display: flex;
+    justify-content: space-evenly;
+}
+.events {
+    background-color: #fff7f7;
+    height: 20vh;
+    margin: 20px 20px 15vh 20px; /*top right bottom left*/
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+
+.skill { 
+    background-color: rgb(231, 91, 26); 
+    padding: 1%;
+    height: 30vh;
+} 
+
+.html, .pic, .ill, .mobile{ 
+    width: 90%; 
+    height: 5%;
+} 
+
+.what_i_do {
+    margin: 40px;
+    height: 28rem;
+    /* background-color: green; */
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.ui {
+    padding: 2px;
+    height: 12rem;
+    width: 20rem;
+    background-color: antiquewhite;
+    margin: 20px 0px 0px 20px;
+    border-radius: 15px;
+}
+
+.app {
+    padding: 2px;
+    height: 12rem;
+    width: 20rem;
+    background-color: #bbb2bd;
+    margin: 20px 0px 0px 20px;
+    border-radius: 15px;
+}
+
+.photo {
+    padding: 2px;
+    height: 12rem;
+    width: 20rem;
+    background-color: #bbb2bd;
+    margin: 20px 0px 0px 20px;
+    border-radius: 15px;
+}
+
+.web{
+    padding: 2px;
+    height: 12rem;
+    width: 20rem;
+    background-color: antiquewhite;
+    margin: 20px 0px 0px 20px;
+    border-radius: 15px;
+}
+.shortcut {
+    height: 350px;
+    width: 13vh;
+    margin: 2px 0 0 65px; /*top right bottom left*/
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.st {   
+    height: 350px;
+    height: fit-content;
+    margin: 20px;
+    background-color: rgb(194, 184, 184);
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.re {
+    text-decoration: none;
+    color: black;
+}
