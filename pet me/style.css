@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eeedef;
+}
+
+.nav{
+    display: flex;
+    background-color: #0E1726;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    color: aliceblue;
+    border-radius: 50%;
+    /* z-index: 9; */
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+
+img{
+    height: 150px;
+    border: 2px solid black;
+}
+
+.nav-h1{
+    color: aliceblue;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.nav-p{
+    color: #B4D9F9;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -180px;
+    font-size: 1.5rem;
+}
+
+.nav-bar{
+    background-color: #0E1726;
+    color: #B4D9F9;
+    height: 50px;
+    display: flex;
+    gap: 25px;
+    font-size: 1.5rem;
+}
+
+p{
+    margin-left: 25px;
+}
+
+.card{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards{
+    height: 700px;
+    background-color: white;
+    width: 500px;
+    margin: 25px;
+    border-radius: 20px;
+    z-index: 9;
+}
+
+.pet{
+    height: 400px;
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.image{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .btn-2 {
+    background: #004dff;
+    background: linear-gradient(0deg, #004dff 0%, #004dff 100%);
+    border: none;
+  }
+  
+  .btn-2:before {
+    height: 0%;
+    width: 2px;
+  }
+  
+  .btn-2:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+  
