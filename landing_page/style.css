@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* sc */
+}
+
+.nav-bar{
+    background: linear-gradient(to right, orange, rgb(248, 83, 209));
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+
+.icon{
+    display: flex;
+}
+
+.icons{
+    /* border: ; */
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    padding: 25px;
+}
+
+.mail{
+    border: 0 2px 0 2px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+  button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  };
+  
+  button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  };
+
+#landing_page{
+    display: flex;
+    height: 100px;
+    background-color: rgb(107, 107, 107);
+    color: chocolate;
+}
+
+.search{
+    display: flex;
+}
+
+.home{
+    padding: 25px;   
+    color: black; 
+}
+
+.home:hover{
+    justify-content: center;
+    align-items: center;
+    padding: 25px;   
+    background-color:rgb(217, 232, 101);
+}
+
+.home-buy{
+    background-color: rgb(236, 156, 38);
+}
+
+.body{
+    background-image: URL("https://plus.unsplash.com/premium_photo-1661777372277-ab368f5b3d0c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8MiUyMHBvZXBsZSUyMGhhdmluZyUyMGRpc2N1c3Npb24lMjBvbiUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: CENTER;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.creative{
+    color: white;
+    font-size: 60px;
+}
+
+p{
+    color: white;
+}
+
+.ideas{
+    height: 100px;
+    /* width: 80%; */
+    background: linear-gradient(to right, orange, pink);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 80%;
+}
+
+h2{
+    color: white;
+}
+
+.buisness{
+    width: 20%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.about{
+    height: 500px;
+}
+
+.common{
+    position: relative;
+    left: 150px;
+}
+
+.about-us{
+    color: black;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    position: relative;
+    bottom: 175px;
+    float: right;
+    margin-right: 200px;
+    height: 500px;
+}
+
