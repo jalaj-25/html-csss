@@ -1,0 +1,61 @@
+body {  
+    margin: 0;  
+    padding: 0;  
+    background: #1b1b1b;  
+    color: white;  
+}  
+
+header {  
+    padding: 10px 0;  
+    text-align: center;  
+}  
+
+nav ul {  
+    list-style: none;  
+    height: 50px;  
+    background-color: #b8b8b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+nav ul li {  
+    margin: 0 15px; 
+    height: 50px; 
+}  
+
+nav ul li button {  
+    text-decoration: none;  
+    color: #1b1b1b; 
+    background-color: #b8b8b8;
+    border: 0;
+    height: 100%;
+    width: 100px;   
+}  
+
+nav ul li button:hover {  
+    background-color: rgb(162, 203, 250);
+    border-radius: 5px;
+}  
+
+.pro{
+    /* height: 100px; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;    
+    /* background-color: aliceblue; */
+}
+
+main .box1,main  .box2{
+    background-color: yellow;
+    min-height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: #1b1b1b;
+}
+
+.java, .web {
+    align-self: center;
+    justify-self: center;
+    background-color: aliceblue;
+}
